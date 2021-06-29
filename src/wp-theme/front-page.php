@@ -11,7 +11,7 @@ get_header();
 
 
 
-<section class="section section--hero bg--image" style="background-image: url('assets/img/header-bg.png');">
+<section class="section section--hero bg--image" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/header-bg.png');">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-8 offset-md-2 text-center p-4">
@@ -25,22 +25,22 @@ get_header();
 	</div>
 </section>
 <section class="section section--properties text-white">
-	<div class="container bg--image" style="background-image: url('assets/img/bg.jpg');">
+	<div class="container bg--image" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/bg.jpg');">
 		<div class="row justify-content-center text-center p-4">
 			<div class="col-6 col-lg-3">
-				<img src="./assets/img/icon-earth.png" alt="">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/icon-earth.png" alt="">
 				<h3>Megújuló energia</h3>
 			</div>
 			<div class="col-6 col-lg-3">
-				<img src="./assets/img/icon-home.png" alt="">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/icon-home.png" alt="">
 				<h3>27db lakás</h3>
 			</div>
 			<div class="col-6 col-lg-3">
-				<img src="./assets/img/icon-ruler.png" alt="">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/icon-ruler.png" alt="">
 				<h3>30,8㎡-130,5㎡</h3>
 			</div>
 			<div class="col-6 col-lg-3">
-				<img src="./assets/img/icon-bulb.png" alt="">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/icon-bulb.png" alt="">
 				<h3>Okos otthonok</h3>
 			</div>
 		</div>
@@ -65,7 +65,7 @@ get_header();
 	<div class="container bg--image text-white p-4" style="background-image: url('assets/img/bg.jpg');">
 		<div class="row p-2">
 			<div class="col-12 col-lg-6">
-				<img src="./assets/img/epitkezes-allasa.jpg" alt="" class="img-fluid">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/epitkezes-allasa.jpg" alt="" class="img-fluid">
 			</div>
 			<div class="col-12 col-lg-6 pl-2">
 				<h2>Ilyet még nem hallottál az biztos!</h2>
@@ -81,7 +81,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6 order-lg-2">
-				<img src="./assets/img/garancia.jpg" alt="" class="img-fluid">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/garancia.jpg" alt="" class="img-fluid">
 			</div>
 			<div class="col-12 col-lg-6 order-lg-1">
 				<h2>Biztonság és garancia</h2>
@@ -101,13 +101,13 @@ get_header();
 				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-						<img src="./assets/img/slider-1.jpg" class="d-block w-100" alt="...">
+						<img src="<?php bloginfo('template_url') ?>/assets/img/slider-1.jpg" class="d-block w-100" alt="...">
 						</div>
 						<div class="carousel-item">
-						<img src="./assets/img/slider-1.jpg" class="d-block w-100" alt="...">
+						<img src="<?php bloginfo('template_url') ?>/assets/img/slider-1.jpg" class="d-block w-100" alt="...">
 						</div>
 						<div class="carousel-item">
-						<img src="./assets/img/slider-1.jpg" class="d-block w-100" alt="...">
+						<img src="<?php bloginfo('template_url') ?>/assets/img/slider-1.jpg" class="d-block w-100" alt="...">
 						</div>
 					</div>
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -160,7 +160,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
-				<img src="./assets/img/lakas.jpg.webp" alt="" class="img-fluid">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/lakas.jpg.webp" alt="" class="img-fluid">
 			</div>
 			<div class="col-12 col-lg-6">
 				<h2>Itt a nyakunkon 2021. Tudod, ez mit jelent?</h2>
@@ -192,21 +192,21 @@ get_header();
 		<div class="row">
 			<div class="col-12 col-lg-4">
 				<div class="testimonial">
-					<img src="./assets/img/client.png" alt="">
+					<img src="<?php bloginfo('template_url') ?>/assets/img/client.png" alt="">
 					<p>Igazi otthont kaptam. Minden esetben kétséget, bizonytalanságot eloszlatva adtak választ kérdéseimre és igyekeztek maradéktalanul eleget tenni a menet közben felmerülő kéréseimnek is. Mindenkinek ilyen biztos hátteret kívánok, ha lakásvásárlásra adja a fejét!</p>
 					<p class="lead">Gábor</p>
 				</div>
 			</div>
 			<div class="col-12 col-lg-4">
 				<div class="testimonial">
-					<img src="./assets/img/client.png" alt="">
+					<img src="<?php bloginfo('template_url') ?>/assets/img/client.png" alt="">
 					<p>Igazi otthont kaptam. Minden esetben kétséget, bizonytalanságot eloszlatva adtak választ kérdéseimre és igyekeztek maradéktalanul eleget tenni a menet közben felmerülő kéréseimnek is. Mindenkinek ilyen biztos hátteret kívánok, ha lakásvásárlásra adja a fejét!</p>
 					<p class="lead">Gábor</p>
 				</div>
 			</div>
 			<div class="col-12 col-lg-4">
 				<div class="testimonial">
-					<img src="./assets/img/client.png" alt="">
+					<img src="<?php bloginfo('template_url') ?>/assets/img/client.png" alt="">
 					<p>Igazi otthont kaptam. Minden esetben kétséget, bizonytalanságot eloszlatva adtak választ kérdéseimre és igyekeztek maradéktalanul eleget tenni a menet közben felmerülő kéréseimnek is. Mindenkinek ilyen biztos hátteret kívánok, ha lakásvásárlásra adja a fejét!</p>
 					<p class="lead">Gábor</p>
 				</div>
