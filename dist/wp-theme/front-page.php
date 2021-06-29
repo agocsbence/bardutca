@@ -62,7 +62,7 @@ get_header();
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container bg--image text-white p-4" style="background-image: url('assets/img/bg.jpg');">
+	<div class="container bg--image text-white p-4" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/bg.jpg');">
 		<div class="row p-2">
 			<div class="col-12 col-lg-6">
 				<img src="<?php bloginfo('template_url') ?>/assets/img/epitkezes-allasa.jpg" alt="" class="img-fluid">
