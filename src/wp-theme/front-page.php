@@ -150,7 +150,7 @@ get_header();
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container bg--image text-white text-center p-5" style="background-image: url('assets/img/home-green.jpg');">
+	<div class="container bg--image text-white text-center p-5" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/home-green.jpg');">
 		<h2>Válaszd ki új otthonod!</h2>
 		<p>Praktikus elosztású nappali + 1 hálószobás lakásaink közül válogathatsz, illetve egy 9. emeleti menő penthouse lakás is a tiéd lehet még! Több, mint ezer átadott lakással a hátunk mögött rengeteg tapasztalatot gyűjtöttünk. Mi azt a lakást építjük, amit már évek óta kerestél. Megvan benne minden, amit ekkora négyzetméteren elvárhat az ember. Mindenből csak annyi, amire valóban szükséged van.</p>
 		<a href="" class="btn btn-primary mt-4">Nézd meg a teljes lakáslistát</a>
