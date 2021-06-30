@@ -6,7 +6,6 @@
 
 
 get_header(); ?>
-<style>body {background: white;}</style>
 
 <div id="lakasvalaszto-plugin">
     <br>
