@@ -305,13 +305,19 @@ get_header(); ?>
                                 <?php if ( get_field('erkely') ) { ?>
                                     <div class="data">
                                         <div class="data-title">Erkély</div>   
-                                        <div class="data-value"><?php the_field('erkely'); ?> + <?php the_field('erkely_2'); ?>m²</div>
+                                        <div class="data-value">
+                                            <?php the_field('erkely'); ?>
+                                            <?php if ( get_field('erkely_2') ) { ?> + <?php the_field('erkely_2'); ?>
+                                            m²</div>
                                     </div>
                                 <?php } ?>
                                 <?php if ( get_field('terasz') ) { ?>
                                     <div class="data">
                                         <div class="data-title">Terasz</div>   
-                                        <div class="data-value"><?php the_field('terasz'); ?> + <?php the_field('terasz_2'); ?>m²</div>
+                                        <div class="data-value">
+                                            <?php the_field('terasz'); ?>
+                                            <?php if ( get_field('terasz_2') ) { ?> + <?php the_field('terasz_2'); ?>
+                                            m²</div>
                                     </div>
                                 <?php } ?>
                             </div>
