@@ -8,7 +8,7 @@
 get_header(); ?>
 <style>body {background: white;}</style>
 
-<div style="background: #e7e8e9; margin: 0 auto; position: relative;">
+<div id="lakasvalaszto-plugin">
     <br>
     <div id="lakas-plugin-wrapper" class="container">
         <div class="controls-container text-center">

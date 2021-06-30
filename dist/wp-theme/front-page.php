@@ -46,7 +46,7 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="section mt-5">
+<section class="section mt-5" id="location">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6 order-lg-2">
