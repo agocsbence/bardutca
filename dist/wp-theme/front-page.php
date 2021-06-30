@@ -204,10 +204,10 @@ get_header();
 		<div class="row">
 			<div class="col-12 col-lg-6">
 				<h2>Kapcsolat</h2>
-				<p class="lead"><?php the_filed('cegnev', 1567); ?></p>
-				<p><span>Cím: </span><?php the_filed('cim', 1567); ?></p>
-				<p><span>Mobil: </span><a class="nolinkdecor" href="tel:<?php the_filed('mobil', 1567); ?>"><?php the_filed('mobil', 1567); ?></a></p>
-				<p><span>Email: </span><a class="nolinkdecor" href="mailto:<?php the_filed('email', 1567); ?>"><?php the_filed('email', 1567); ?></a></p>
+				<p class="lead"><?php the_field('cegnev', 1567); ?></p>
+				<p><span>Cím: </span><?php the_field('cim', 1567); ?></p>
+				<p><span>Mobil: </span><a class="nolinkdecor" href="tel:<?php the_field('mobil', 1567); ?>"><?php the_field('mobil', 1567); ?></a></p>
+				<p><span>Email: </span><a class="nolinkdecor" href="mailto:<?php the_field('email', 1567); ?>"><?php the_field('email', 1567); ?></a></p>
 			</div>
 			<div class="col-12 col-lg-6">
 				<form action="">
