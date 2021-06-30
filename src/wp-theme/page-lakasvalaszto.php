@@ -214,6 +214,13 @@ get_header(); ?>
                     } elseif (get_field('erkely') >= 20 ) {
                         echo 'erkely-2 ';
                     }
+                    if ( get_field('terasz') == 0 ) { 
+                        echo 'terasz-0 '; 
+                    } elseif (get_field('terasz') < 20 ) {
+                        echo 'terasz-1 '; 
+                    } elseif (get_field('terasz') >= 20 ) {
+                        echo 'terasz-2 ';
+                    }
                     if ( get_field('kertes') == 'igen' ) { 
                         echo 'kertes '; 
                     } else {
@@ -264,6 +271,11 @@ get_header(); ?>
                                             } else { 
                                                 echo '+';
                                                 the_field('erkely'); } ?>
+                                            <?php if (get_field('erkely_2') == 0) {
+                                                echo '';
+                                            } else { 
+                                                echo '+';
+                                                the_field('erkely_2'); } ?>
                                             m²</strong>
                                         </div>
                                         <div class="divider"></div>
@@ -360,6 +372,11 @@ get_header(); ?>
                                                     } else { 
                                                         echo '+';
                                                         the_field('erkely'); } ?>
+                                                    <?php if (get_field('erkely_2') == 0) {
+                                                        echo '';
+                                                    } else { 
+                                                        echo '+';
+                                                        the_field('erkely_2'); } ?>
                                                     m²</strong>
                                                 </div>
                                                 <div class="divider"></div>
@@ -388,7 +405,7 @@ get_header(); ?>
                                             </div>
                                             <div class="data">
                                                 <div class="data-title">Erkély</div>   
-                                                <div class="data-value"><?php the_field('erkely'); ?>m²</div>
+                                                <div class="data-value"><?php the_field('erkely'); ?> + <?php the_field('erkely_2'); ?>m²</div>
                                             </div>
                                         </div>
                                     </div>
