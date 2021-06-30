@@ -121,7 +121,7 @@ get_header();
 </section>
 <section class="section mt-5">
 	<div class="container text-center">
-		<?php the_field('services_text'); ?>
+		<?php the_field('services_text', 1567); ?>
 		<div class="row">
 			<div class="col-12 col-lg-3">
 				<div class="btn btn-secondary"><?php the_field('service_1', 1567); ?></div>
