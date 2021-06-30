@@ -210,7 +210,7 @@ get_header();
 				<p><span>Email: </span><a class="nolinkdecor" href="mailto:<?php the_field('email', 1567); ?>"><?php the_field('email', 1567); ?></a></p>
 			</div>
 			<div class="col-12 col-lg-6">
-				<form action="">
+				<!-- <form action="">
 					<div class="row mb-3">
 						<div class="col-6">
 							<label for="nameInput1" class="form-label">Név *</label>
@@ -248,7 +248,8 @@ get_header();
 							<button type="submit" class="btn btn-submit">Elküld</button>
 						</div>
 					</div>
-				</form>
+				</form> -->
+				<?php echo do_shortcode('[contact-form-7 id="1628" title="Kapcsolat"]'); ?>
 			</div>
 		</div>
 	</div>
