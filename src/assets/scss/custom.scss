@@ -54,6 +54,9 @@ input, textarea {
     border-radius: 0 !important;
     background: $body-background !important;
 }
+.section--contact input[type=checkbox]:checked {
+    background: $green;
+}
 .btn {
     border-radius: 1rem;
     padding: .2rem 1.5rem;
@@ -221,4 +224,11 @@ input, textarea {
             transform-origin: center left;
         }
     }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    padding: 1.2rem;
+    background-size: 80%;
 }

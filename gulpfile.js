@@ -14,7 +14,7 @@ gulp.task('styles', function () {
     autoprefixer(),
     cssnano({zindex: false})
   ];
-  return gulp.src('src/assets/scss/state.scss')
+  return gulp.src('src/assets/scss/custom.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe(gulp.dest('dist/wp-theme/assets/css/'));

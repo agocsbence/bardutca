@@ -158,7 +158,7 @@ get_header();
 </section>
 <section class="section">
 	<div class="container mb-5">
-		<h2 class="text-center mx-5 mb-5"><?php the_field('video_text', 1567); ?></h2>
+		<h2 class="text-center mx-2 mx-lg-5 mb-5 mb-lg-5"><?php the_field('video_text', 1567); ?></h2>
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-4">
 				<iframe src="https://www.youtube.com/embed/<?php the_field('video_id_1', 1567); ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-fluid"></iframe>
