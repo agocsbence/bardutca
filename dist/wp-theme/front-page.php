@@ -157,7 +157,7 @@ get_header();
 	</div>
 </section>
 <section class="section">
-	<div class="container mb-5">
+	<div class="container px-0 mb-5">
 		<h2 class="text-center mx-2 mx-lg-5 mb-5 mb-lg-5"><?php the_field('video_text', 1567); ?></h2>
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-4">
@@ -173,7 +173,7 @@ get_header();
 	</div>
 </section>
 <section class="section section--testimonials">
-	<div class="container my-5">
+	<div class="container px-0 my-5">
 		<div class="row">
 			<div class="col-12 col-lg-4">
 				<div class="testimonial">
@@ -200,7 +200,7 @@ get_header();
 	</div>
 </section>
 <section class="section section--contact mb-5">
-	<div class="container">
+	<div class="container px-0">
 		<div class="row">
 			<div class="col-12 col-lg-6">
 				<h2>Kapcsolat</h2>
