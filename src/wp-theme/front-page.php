@@ -47,43 +47,43 @@ get_header();
 	</div>
 </section>
 <section class="section mt-5" id="location">
-	<div class="container">
+	<div class="container px-0">
 		<div class="row">
 			<div class="col-12 col-lg-6 order-lg-2">
 				<img src="<?php the_field('block_1_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
-			<div class="col-12 col-lg-6 order-lg-1">
+			<div class="col-12 col-lg-6 order-lg-1 mt-4 mt-lg-0">
 			<?php the_field('block_1_text', 1567); ?>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container bg--image text-white p-4" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/bg.jpg');">
+	<div class="container bg--image text-white p-lg-4" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/bg.jpg');">
 		<div class="row p-2">
 			<div class="col-12 col-lg-6">
 				<img src="<?php the_field('block_2_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
-			<div class="col-12 col-lg-6 pl-2">
+			<div class="col-12 col-lg-6 pl-2 mt-4 mt-lg-0">
 			<?php the_field('block_2_text', 1567); ?>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container">
+	<div class="container px-0">
 		<div class="row">
 			<div class="col-12 col-lg-6 order-lg-2">
 				<img src="<?php the_field('block_3_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
-			<div class="col-12 col-lg-6 order-lg-1">
+			<div class="col-12 col-lg-6 order-lg-1 mt-4 mt-lg-0">
 				<?php the_field('block_3_text', 1567); ?>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section">
-	<div class="container bg-white">
+	<div class="container px-0 bg-white">
 		<div class="row">
 			<div class="col-12 col-lg-7">
 				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -112,7 +112,7 @@ get_header();
 				</div>
 			</div>
 			<div class="col-12 col-lg-5">
-				<div class="p-5">
+				<div class="p-0 p-lg-5 mt-4 mt-lg-0">
 					<?php the_field('slider_text', 1567); ?>
 				</div>
 			</div>
@@ -123,16 +123,16 @@ get_header();
 	<div class="container text-center">
 		<?php the_field('services_text', 1567); ?>
 		<div class="row">
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_1', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_2', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_3', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_4', 1567); ?></div>
 			</div>
 		</div>
@@ -145,12 +145,12 @@ get_header();
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container">
+	<div class="container px-0">
 		<div class="row">
 			<div class="col-12 col-lg-6">
 				<img src="<?php the_field('block_4_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
-			<div class="col-12 col-lg-6">
+			<div class="col-12 col-lg-6 mt-4 mt-lg-0">
 				<?php the_field('block_4_text', 1567); ?>
 			</div>
 		</div>
