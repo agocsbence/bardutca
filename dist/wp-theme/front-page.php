@@ -48,7 +48,7 @@ get_header();
 </section>
 <section class="section mt-5" id="location">
 	<div class="container px-0">
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-12 col-lg-6 order-lg-2">
 				<img src="<?php the_field('block_1_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
