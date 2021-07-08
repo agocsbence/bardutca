@@ -39,9 +39,6 @@
 									<a class="nav-link" href="<?php echo get_home_url(); ?>#location">Elhelyezkedés</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Műszaki tartalom</a>
-								</li>
-								<li class="nav-item">
 									<a class="nav-link" href="#">Galéria</a>
 								</li>
 								<li class="nav-item">
