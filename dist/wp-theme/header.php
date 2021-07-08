@@ -44,14 +44,17 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#">Galéria</a>
 								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="<?php echo get_permalink(1565); ?>">Projektjeink</a>
+								</li>
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projektjeink</a>
+									<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projektjeink</a>
 									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="<?php echo get_permalink(1565); ?>">Pacific Park</a></li>
-										<li><a class="dropdown-item" href="<?php echo get_permalink(1565); ?>">Green Median Residence</a></li>
-										<li><a class="dropdown-item" href="<?php echo get_permalink(1565); ?>">Tolnai 38</a></li>
-										<li><a class="dropdown-item" href="<?php echo get_permalink(1565); ?>">Natura Residence</a></li>
-									</ul>
+										<li><a class="dropdown-item" href="<?php // echo get_permalink(1565); ?>">Pacific Park</a></li>
+										<li><a class="dropdown-item" href="<?php // echo get_permalink(1565); ?>">Green Median Residence</a></li>
+										<li><a class="dropdown-item" href="<?php // echo get_permalink(1565); ?>">Tolnai 38</a></li>
+										<li><a class="dropdown-item" href="<?php // echo get_permalink(1565); ?>">Natura Residence</a></li>
+									</ul> -->
 								</li>
                                 <li class="nav-item">
                                     <a href="tel:" class="nav-link">
