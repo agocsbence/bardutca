@@ -123,23 +123,23 @@ get_header();
 	<div class="container text-center">
 		<?php the_field('services_text', 1567); ?>
 		<div class="row">
-			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_1', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_2', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_3', 1567); ?></div>
 			</div>
-			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_4', 1567); ?></div>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section my-5">
-	<div class="container bg--image text-white text-center p-5" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/home-green.jpg');">
+	<div class="container bg--image text-white text-center p-lg-5 p-2 py-5" style="background-image: url('<?php bloginfo('template_url') ?>/assets/img/home-green.jpg');">
 		<?php the_field('cta_block_text', 1567); ?>
 		<a href="<?php the_field('cta_block_link', 1567); ?>" class="btn btn-primary mt-4">Nézd meg a teljes lakáslistát</a>
 	</div>
