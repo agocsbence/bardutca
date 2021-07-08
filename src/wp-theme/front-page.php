@@ -72,7 +72,7 @@ get_header();
 </section>
 <section class="section my-5">
 	<div class="container px-0">
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-12 col-lg-6 order-lg-2">
 				<img src="<?php the_field('block_3_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
@@ -146,7 +146,7 @@ get_header();
 </section>
 <section class="section my-5">
 	<div class="container px-0">
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-12 col-lg-6">
 				<img src="<?php the_field('block_4_image', 1567); ?>" alt="" class="img-fluid">
 			</div>
