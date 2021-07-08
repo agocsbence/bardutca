@@ -123,16 +123,16 @@ get_header();
 	<div class="container text-center">
 		<?php the_field('services_text', 1567); ?>
 		<div class="row">
-			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_1', 1567); ?></div>
 			</div>
-			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_2', 1567); ?></div>
 			</div>
-			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_3', 1567); ?></div>
 			</div>
-			<div class="col-6 col-lg-3 mt-2 mt-lg-0">
+			<div class="col-12 col-lg-3 mt-2 mt-lg-0">
 				<div class="btn btn-secondary"><?php the_field('service_4', 1567); ?></div>
 			</div>
 		</div>
@@ -175,21 +175,21 @@ get_header();
 <section class="section section--testimonials">
 	<div class="container px-lg-0 my-5">
 		<div class="row">
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mt-5 mt-lg-0">
 				<div class="testimonial">
 					<img src="<?php the_field('testimonial_image_1', 1567); ?>" alt="">
 					<p><?php the_field('testimonial_text_1', 1567); ?></p>
 					<p class="lead"><?php the_field('testimonial_name_1', 1567); ?></p>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mt-5 mt-lg-0">
 				<div class="testimonial">
 					<img src="<?php the_field('testimonial_image_2', 1567); ?>" alt="">
 					<p><?php the_field('testimonial_text_2', 1567); ?></p>
 					<p class="lead"><?php the_field('testimonial_name_2', 1567); ?></p>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mt-5 mt-lg-0">
 				<div class="testimonial">
 					<img src="<?php the_field('testimonial_image_3', 1567); ?>" alt="">
 					<p><?php the_field('testimonial_text_3', 1567); ?></p>
