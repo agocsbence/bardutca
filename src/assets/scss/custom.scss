@@ -54,8 +54,12 @@ input, textarea {
     border-radius: 0 !important;
     background: $body-background !important;
 }
+.section--contact input[type=submit] {
+    background: $green !important;
+    color: $white !important;
+}
 .section--contact input[type=checkbox]:checked {
-    background: $green;
+    background: $green !important;
 }
 .btn {
     border-radius: 1rem;
