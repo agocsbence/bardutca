@@ -296,7 +296,7 @@ get_header(); ?>
 
                         </div>
                         <div class="lakas-content">
-                            <img src="<?php the_field('kep'); ?>" alt="">
+                            <a href="<?php the_field('kep'); ?>"><img src="<?php the_field('kep'); ?>" alt=""></a>
                             <div class="data-all">
                                 <div class="data">
                                     <div class="data-title">Alapterület</div>   
@@ -411,7 +411,7 @@ get_header(); ?>
 
                                     </div>
                                     <div class="lakas-content">
-                                        <img src="<?php the_field('kep'); ?>" alt="">
+                                        <a href="<?php the_field('kep'); ?>"><img src="<?php the_field('kep'); ?>" alt=""></a>
                                         <div class="data-all">
                                             <div class="data">
                                                 <div class="data-title">Alapterület</div>   
@@ -653,5 +653,24 @@ get_header(); ?>
         observer.observe(stickyElm)
     </script>
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script defer src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script> -->
+<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.lakas-content').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: false,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        }
+    });
+});
+</script>
 
 <?php get_footer(); ?>
