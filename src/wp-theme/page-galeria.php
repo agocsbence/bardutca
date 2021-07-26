@@ -62,10 +62,6 @@ get_header(); ?>
 
         <?php endwhile; endif; ?>    
 
-    </div>
-</div>
-<div class="container">
-    <div class="row" data-masonry='{"percentPosition": true }'>
         <?php
         if( have_rows('galeria_3') ): while ( have_rows('galeria_3') ) : the_row(); ?>
 
@@ -116,10 +112,7 @@ get_header(); ?>
             </div>
 
         <?php endwhile; endif; ?>   
-    </div>
-</div>
-<div class="container">
-    <div class="row" data-masonry='{"percentPosition": true }'>
+
         <?php
         if( have_rows('galeria_5') ): while ( have_rows('galeria_5') ) : the_row(); ?>
 
