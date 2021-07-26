@@ -39,7 +39,7 @@
 									<a class="nav-link" href="<?php echo get_home_url(); ?>#location">Elhelyezkedés</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Galéria</a>
+									<a class="nav-link" href="<?php echo get_permalink(1736); ?>">Galéria</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="<?php echo get_permalink(1565); ?>">Projektjeink</a>
