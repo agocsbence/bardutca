@@ -9,7 +9,7 @@ get_header(); ?>
 <section class="section" id="projektjeink">
 
 <div class="container">
-    <div class="row">
+    <div class="row" data-masonry='{"percentPosition": true }'>
 
         <?php
         if( have_rows('galeria_1') ): while ( have_rows('galeria_1') ) : the_row(); ?>
@@ -65,7 +65,7 @@ get_header(); ?>
     </div>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row" data-masonry='{"percentPosition": true }'>
         <?php
         if( have_rows('galeria_3') ): while ( have_rows('galeria_3') ) : the_row(); ?>
 
@@ -119,7 +119,7 @@ get_header(); ?>
     </div>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row" data-masonry='{"percentPosition": true }'>
         <?php
         if( have_rows('galeria_5') ): while ( have_rows('galeria_5') ) : the_row(); ?>
 
@@ -149,6 +149,7 @@ get_header(); ?>
 </div>
 
 </section>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
 var swiper = new Swiper("#galeria_1", {
